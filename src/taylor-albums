@@ -1,0 +1,50 @@
+import image from './images'
+import taylorSwiftImg from './images/taylor-swift.jpg'
+import fearlessImg from './images/fearless.jpg'
+import speakNowImg from './images/speak-now.jpg'
+import redImg from './images/red.jpg'
+import ts1989Img from './images/1989.jpg'
+import reputationImg from './images/reputation.jpg'
+import loverImg from './images/lover.jpg'
+import folkloreImg from './images/folklore.jpg'
+import evermoreImg from './images/evermore.jpg'
+import midnightsImg from './images/midnights.jpg'
+import ttpdImg from './images/ttpd.jpg'
+import fearlessTSvImg from './images/fearless-taylors-version.jpg'
+import redTaylorsTSvImg from './images/red-taylors-version.jpg'
+import speakNowTSvImg from './images/speak-now-taylors-version.jpg'
+import ts1989TSvImg from './images/1989-taylors-version.jpg'
+
+export default function taylorAlbums () {
+    const taylorSwift = new image(taylorSwiftImg, "Taylor Swift", "Taylor Swift");
+    const fearless = new image(fearlessImg, "Fearless", "Taylor Swift");
+    const speakNow = new image(speakNowImg, "Speak Now", "Taylor Swift");
+    const red = new image(redImg, "Red", "Taylor Swift");
+    const ts1989 = new image(ts1989Img, "1989", "Taylor Swift");
+    const reputation = new image(reputationImg, "Reputation", "Taylor Swift");
+    const lover = new image(loverImg, "Lover", "Taylor Swift");
+    const folklore = new image(folkloreImg, "Folklore", "Taylor Swift");
+    const evermore = new image(evermoreImg, "Evermore", "Taylor Swift");
+    const midnights = new image(midnightsImg, "Midnights", "Taylor Swift");
+    const ttpd = new image(ttpdImg, "The Tortured Poets Department", "Taylor Swift");
+    const fearlessTSv = new image(fearlessTSvImg, "Fearless (Taylor's Version)", "Taylor Swift");
+    const redTaylorsTSv = new image(redTaylorsTSvImg, "Red (Taylor's Version)", "Taylor Swift");
+    const speakNowTSv = new image(speakNowTSvImg, "Speak Now (Taylor's Version)", "Taylor Swift");
+    const ts1989TSv = new image(ts1989TSvImg, "1989 (Taylor's Version)", "Taylor Swift");
+
+    taylorSwift.addImg();
+    fearless.addImg();
+    speakNow.addImg();
+    red.addImg();
+    ts1989.addImg();
+    reputation.addImg();
+    lover.addImg();
+    folklore.addImg();
+    evermore.addImg();
+    midnights.addImg();
+    ttpd.addImg();
+    fearlessTSv.addImg();
+    redTaylorsTSv.addImg();
+    speakNowTSv.addImg();
+    ts1989TSv.addImg();
+}

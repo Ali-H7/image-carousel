@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  color: #282842;
+}
+
+body {
+  box-sizing: border-box;
+  font-size: 1.6rem;
+  background-color: #dfe3ee;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+.image-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.previous-img {
+  position: absolute;
+  top: 42%;
+  left: 2.5%;
+  font-size: 36px;
+  cursor: pointer;
+}
+
+.next-img {
+  position: absolute;
+  top: 42%;
+  right: 2.5%;
+  font-size: 36px;
+  cursor: pointer;
+}
+.text {
+  align-self: flex-start;
+  padding-left: 20px;
+}
+
+.icons {
+  display: flex;
+  gap: 10px;
+}
+
+.icons > i {
+  cursor: pointer;
+}
+
+img {
+  height: 700px;
+  width: 700px;
+  border-radius: 35px;
+}
